@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Python in external cmd (wait for key)",
+      "type": "shell",
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "start",
+        "cmd.exe",
+        "/c",
+        "\"${workspaceFolder}\\.venv\\Scripts\\python.exe\" \"${file}\" & echo. & echo Press any key to exit... & pause > nul"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Runs a Python script with the project venv in an external CMD window and waits for a key press before closing"
+    }
+  ]
+}
