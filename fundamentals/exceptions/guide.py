@@ -1,6 +1,4 @@
-# ==========================================
-# PART 3: Exceptions
-# ==========================================
+# Python reference exceptions
 
 # 1. WHAT IS AN EXCEPTION
 # An exception is an error that happens while the program is running.
