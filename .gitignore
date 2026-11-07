@@ -1,2 +1,3 @@
 .venv/
 fundamentals/file_handling/txt_files/*.txt
+fundamentals/modules/*.txt
