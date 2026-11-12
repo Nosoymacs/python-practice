@@ -2,3 +2,4 @@
 __pycache__/
 fundamentals/file_handling/txt_files/*.txt
 fundamentals/modules/*.txt
+fundamentals/file_handling/csv_files/*.csv
