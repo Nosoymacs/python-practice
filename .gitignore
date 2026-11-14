@@ -1,6 +1,6 @@
 .venv/
 __pycache__/
-fundamentals/file_handling/txt_files/*.txt
+fundamentals/file_handling/**/*.txt
+fundamentals/file_handling/**/*.csv
+fundamentals/file_handling/**/*.json
 fundamentals/modules/*.txt
-fundamentals/file_handling/csv_files/*.csv
-fundamentals/file_handling/json_files/*.json
